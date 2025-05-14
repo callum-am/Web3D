@@ -131,7 +131,7 @@ function createThreeViewerMain({ openingModel, crushModel, staticOnly }) {
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(45, width / height, 0.1, 100);
     if (staticOnly && openingModel.includes('bottle')) {
-        camera.position.set(4, 4, 4); 
+        camera.position.set(10, 4, 1); 
     } else {
         camera.position.set(10, 5, 10);
     }
